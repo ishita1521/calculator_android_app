@@ -5,13 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Linear_equation2variables"
-    android:background="@drawable/black_bg">
+    android:background="@color/black">
     <TextView
         android:id="@+id/home_screen3"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:background="@drawable/box_design"
-        android:foreground="@drawable/ic_baseline_home_24"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:foreground="@drawable/home"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.048"
@@ -20,9 +19,8 @@
         app:layout_constraintVertical_bias="0.04000002"/>
     <TextView
         android:id="@+id/retry3"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:background="@drawable/box_design"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:foreground="@drawable/ic_baseline_refresh_24"
         android:onClick="retry3"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -39,8 +37,9 @@
         android:layout_marginBottom="557dp"
         android:gravity="center"
         android:text="Equation Is in form of ax+by+c=0 where x,y are variables"
+        android:fontFamily="@font/dm_sans_medium"
         android:textColor="@color/white"
-        android:textSize="28sp"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -78,7 +77,7 @@
 
         <EditText
             android:id="@+id/editTextNumberSigned5"
-            android:layout_width="160dp"
+            android:layout_width="150dp"
             android:layout_height="100dp"
             android:layout_gravity="bottom"
             android:layout_marginHorizontal="2dp"
@@ -90,12 +89,14 @@
             android:gravity="center"
             android:hint="a2"
             android:inputType="numberSigned|numberDecimal"
+            android:textColorHint="@color/white"
+            android:fontFamily="@font/dm_sans"
             android:paddingLeft="7sp"
-            android:textSize="30dp" />
+            android:textSize="25dp" />
 
         <EditText
             android:id="@+id/editTextNumberSigned6"
-            android:layout_width="160dp"
+            android:layout_width="150dp"
             android:layout_height="100dp"
             android:layout_gravity="bottom"
             android:layout_marginHorizontal="2dp"
@@ -107,12 +108,14 @@
             android:gravity="center"
             android:hint="b2"
             android:inputType="numberSigned|numberDecimal"
+            android:textColorHint="@color/white"
+            android:fontFamily="@font/dm_sans"
             android:paddingLeft="7sp"
-            android:textSize="30dp" />
+            android:textSize="25dp" />
 
         <EditText
             android:id="@+id/editTextNumberSigned7"
-            android:layout_width="160dp"
+            android:layout_width="150dp"
             android:layout_height="100dp"
             android:layout_marginHorizontal="2dp"
             android:layout_weight="1"
@@ -122,8 +125,10 @@
             android:gravity="center"
             android:hint="c2"
             android:inputType="numberSigned|numberDecimal"
+            android:textColorHint="@color/white"
+            android:fontFamily="@font/dm_sans"
             android:paddingLeft="7sp"
-            android:textSize="30dp" />
+            android:textSize="25dp" />
     </LinearLayout>
     <LinearLayout
         android:id="@+id/linearLayout5"
@@ -141,7 +146,7 @@
 
         <EditText
             android:id="@+id/editTextNumberSigned8"
-            android:layout_width="160dp"
+            android:layout_width="150dp"
             android:layout_height="100dp"
             android:layout_gravity="bottom"
             android:layout_marginHorizontal="2dp"
@@ -153,12 +158,14 @@
             android:gravity="center"
             android:hint="a1"
             android:inputType="numberSigned|numberDecimal"
+            android:textColorHint="@color/white"
+            android:fontFamily="@font/dm_sans"
             android:paddingLeft="7sp"
-            android:textSize="30dp" />
+            android:textSize="25dp" />
 
         <EditText
             android:id="@+id/editTextNumberSigned9"
-            android:layout_width="160dp"
+            android:layout_width="150dp"
             android:layout_height="100dp"
             android:layout_gravity="bottom"
             android:layout_marginHorizontal="2dp"
@@ -170,12 +177,14 @@
             android:gravity="center"
             android:hint="b1"
             android:inputType="numberSigned|numberDecimal"
+            android:textColorHint="@color/white"
+            android:fontFamily="@font/dm_sans"
             android:paddingLeft="7sp"
-            android:textSize="30dp" />
+            android:textSize="25dp" />
 
         <EditText
             android:id="@+id/editTextNumberSigned10"
-            android:layout_width="160dp"
+            android:layout_width="150dp"
             android:layout_height="100dp"
             android:layout_marginHorizontal="2dp"
             android:layout_weight="1"
@@ -185,17 +194,21 @@
             android:gravity="center"
             android:hint="c1"
             android:inputType="numberSigned|numberDecimal"
+            android:textColorHint="@color/white"
+            android:fontFamily="@font/dm_sans"
             android:paddingLeft="7sp"
-            android:textSize="30dp" />
+            android:textSize="25dp" />
     </LinearLayout>
     <Button
         android:id="@+id/submitlinear2"
         android:layout_width="150dp"
-        android:layout_height="61dp"
+        android:layout_height="60dp"
         android:layout_gravity="center"
         android:layout_marginHorizontal="2dp"
         android:background="@drawable/button_design2"
         android:foregroundGravity="center"
+        android:fontFamily="@font/dm_sans_bold"
+        android:textAllCaps="false"
         android:gravity="center"
         android:shadowColor="@color/purple_500"
         android:text="@string/submit"
