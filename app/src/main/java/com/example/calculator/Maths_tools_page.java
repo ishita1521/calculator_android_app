@@ -34,4 +34,9 @@ public class Maths_tools_page extends AppCompatActivity {
         startActivity(intent);
 
     }
+
+    public void trignometry(View view) {
+        Intent intent = new Intent(this,TrignometryActivity.class);
+        startActivity(intent);
+    }
 }
