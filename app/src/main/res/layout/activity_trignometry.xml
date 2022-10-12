@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".TrignometryActivity"
-    android:background="@drawable/black_bg">
+    android:background="@color/black">
 
 
     <RelativeLayout
@@ -19,7 +19,7 @@
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:background="@drawable/box_design"
-            android:foreground="@drawable/ic_baseline_home_24"
+            android:foreground="@drawable/home"
             android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"/>
 
