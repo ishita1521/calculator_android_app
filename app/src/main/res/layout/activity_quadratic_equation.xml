@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:gravity="center"
-        android:text="Enter the coefficent to obtain the required roots (ax^2+bx+c=0)"
+        android:text="Enter the coefficent to obtain the required roots (ax²+bx+c=0)"
         android:fontFamily="@font/dm_sans_medium"
         android:textColor="@color/white"
         android:textSize="24sp"
