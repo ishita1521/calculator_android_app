@@ -8,7 +8,6 @@
     android:onClick="home"
     tools:context=".Maths_tools_page">
 
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -18,8 +17,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/home_screen">
-
-
 
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -37,9 +34,9 @@
                 android:background="@drawable/box_design"
                 android:gravity="center"
                 android:onClick="quadeqn"
-                android:text="Quadratic Equation"
+                android:text="@string/quadratic_equation"
                 android:textColor="@color/white"
-                android:textSize="35dp" />
+                android:textSize="35sp" />
 
             <TextView
                 android:id="@+id/textView21"
@@ -51,9 +48,9 @@
                 android:background="@drawable/box_design"
                 android:gravity="center"
                 android:onClick="log_calculation"
-                android:text="Log Calculation"
+                android:text="@string/log_calculation"
                 android:textColor="@color/white"
-                android:textSize="35dp" />
+                android:textSize="35sp" />
 
             <TextView
                 android:id="@+id/textView22"
@@ -65,9 +62,9 @@
                 android:background="@drawable/box_design"
                 android:gravity="center"
                 android:onClick="linear_eqn2var"
-                android:text="Linear Equation 2 variables"
+                android:text="@string/linear_equation_2_variables"
                 android:textColor="@color/white"
-                android:textSize="35dp" />
+                android:textSize="35sp" />
 
             <TextView
                 android:id="@+id/trignometry"
@@ -79,9 +76,9 @@
                 android:layout_marginBottom="50dp"
                 android:background="@drawable/box_design"
                 android:gravity="center"
-                android:text="Trigonometry"
+                android:text="@string/trigonometry"
                 android:textColor="@color/white"
-                android:textSize="35dp" />
+                android:textSize="35sp" />
 
             <TextView
                 android:id="@+id/tempId"
@@ -95,7 +92,7 @@
                 android:gravity="center"
                 android:text="@string/temperature"
                 android:textColor="@color/white"
-                android:textSize="35dp" />
+                android:textSize="35sp" />
 
 
         </LinearLayout>

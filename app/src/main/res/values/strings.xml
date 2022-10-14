@@ -33,4 +33,8 @@
     <string name="celsius">℃</string>
     <string name="Fahrenheit">°F</string>
     <string name="celsius_fahrenheit">Enter the Temperature and get temperature in celsius or fahrenheit</string>
+    <string name="quadratic_equation">Quadratic Equation</string>
+    <string name="log_calculation">Log Calculation</string>
+    <string name="linear_equation_2_variables">Linear Equation 2 variables</string>
+    <string name="trigonometry">Trigonometry</string>
 </resources>
