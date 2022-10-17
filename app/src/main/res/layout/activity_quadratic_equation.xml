@@ -13,7 +13,7 @@
         android:layout_height="40dp"
         android:foreground="@drawable/home"
         android:layout_alignParentStart="true"
-        android:layout_toLeftOf="@+id/retry1"/>
+        android:padding="50dp"/>
 
     <TextView
         android:id="@+id/textView200"
@@ -40,9 +40,6 @@
         android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="0dp"
-        android:foregroundGravity="bottom|center"
-        android:gravity="bottom|center"
         android:orientation="horizontal"
         android:layout_below="@id/textView37"
         android:layout_above="@id/button">
@@ -126,8 +123,8 @@
         android:layout_height="40dp"
         android:foreground="@drawable/ic_baseline_refresh_24"
         android:onClick="retry1"
-        android:layout_alignParentStart="true"
-        android:layout_toRightOf="@+id/home_screen1"/>
+        android:layout_alignParentEnd="true"
+        android:padding="50dp"/>
     
     
 </RelativeLayout>
